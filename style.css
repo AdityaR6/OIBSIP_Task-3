@@ -141,7 +141,12 @@ button
     font-size: 25px;
 }
 
-
+.completed
+{
+    text-decoration: line-through;
+    transform: scale(0.966,0.966);
+    opacity: 0.6;
+}
 
 
 #taskname

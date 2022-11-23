@@ -24,15 +24,11 @@ function del(e) {
 }
 
 function done(e) {
-    e.classList.toggle('completed');
-    e.parentNode.style.textDecoration = "line-through"; 
+    e.parentNode.classList.toggle('completed');
     
 }
 
-function rmv(e) {
-    e.parentNode.style.textDecoration = "none";
-    e.classList.toggle('complete');
-}
+
 
 
 

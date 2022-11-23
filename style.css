@@ -109,8 +109,6 @@ button
 #temp
 {
     display: flex;
-    /* justify-content: space-between; */
-    /* align-items: center; */
     height: 25px;
     background:linear-gradient(to left,blue,pink);
     border-radius: 5px;
@@ -118,6 +116,7 @@ button
     margin: 10px;
     font-size: 18px;
     font-family: monospace;
+    transition: transform 0.3s cubic-bezier(0.67, -0.33, 0.62, 1.35), box-shadow 0.6s ease;
 }
 
 #tasks
